@@ -44,9 +44,9 @@ export const FastQuoteModal: React.FC<FastQuoteModalProps> = ({
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/70 backdrop-blur-sm animate-in fade-in duration-200">
       <div className="relative w-full max-w-xl bg-[#FBF9F5] rounded-3xl border border-neutral-300 shadow-2xl overflow-hidden max-h-[95vh] flex flex-col">
         {/* Top Header */}
-        <div className="bg-[#142318] bg-camo-pattern p-5 sm:p-6 text-white border-b border-[#2d4933] flex items-center justify-between">
+        <div className="bg-[#11150c] bg-camo-pattern p-5 sm:p-6 text-white border-b border-[#4a502c] flex items-center justify-between">
           <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-lg bg-[#27452d] flex items-center justify-center text-white">
+            <div className="w-8 h-8 rounded-lg bg-[#222718] border border-[#535c36] flex items-center justify-center text-[#867e3c]">
               <Shield className="w-4 h-4" />
             </div>
             <div>

@@ -14,60 +14,44 @@ html {
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-/* Premium military army green aesthetic that looks authoritative and polished */
+/* Dark organic military camouflage aesthetic matching user's reference design */
 .bg-army-prestige {
-  background-color: #17261a;
+  background-color: #13170e;
   background-image: 
-    radial-gradient(ellipse at 85% 15%, rgba(68, 97, 71, 0.22) 0%, transparent 60%),
-    radial-gradient(ellipse at 15% 85%, rgba(38, 56, 39, 0.3) 0%, transparent 60%),
-    linear-gradient(180deg, #18281c 0%, #111d13 100%);
+    radial-gradient(ellipse at 85% 15%, rgba(114, 107, 52, 0.25) 0%, transparent 60%),
+    radial-gradient(ellipse at 15% 85%, rgba(34, 39, 24, 0.4) 0%, transparent 60%),
+    linear-gradient(180deg, #161c11 0%, #0e120a 100%);
 }
 
-.bg-army-camo-authentic {
-  background-color: #b9a182;
-  background-image: url('/army-camo-pattern.svg');
-  background-repeat: repeat;
-  background-size: 260px 260px;
-}
-
-.bg-army-camo {
-  background-color: #b9a182;
-  background-image: url('/army-camo-pattern.svg');
-  background-repeat: repeat;
-  background-size: 260px 260px;
-}
-
+.bg-army-camo-authentic,
+.bg-army-camo-direct,
+.bg-army-camo,
 .bg-army-camo-dark {
-  background-color: #172418;
-  background-image: 
-    linear-gradient(rgba(18, 29, 20, 0.88), rgba(15, 24, 16, 0.94)),
-    url('/army-digital-camo.svg');
+  background-color: #172214;
+  background-image: url('./assets/army-camo-pattern.svg');
   background-repeat: repeat;
-  background-size: 160px 160px;
+  background-size: 600px 300px;
 }
 
 .bg-army-camo-subtle {
-  background-color: #f7f3ec;
+  background-color: #f7f6f0;
   background-image: 
-    linear-gradient(rgba(247, 243, 236, 0.92), rgba(247, 243, 236, 0.92)),
-    url('/army-digital-camo.svg');
+    linear-gradient(rgba(247, 246, 240, 0.93), rgba(247, 246, 240, 0.93)),
+    url('./assets/army-camo-pattern.svg');
   background-repeat: repeat;
-  background-size: 140px 140px;
+  background-size: 500px 250px;
 }
 
 .bg-camo-pattern {
-  background-color: #142318;
-  background-image: 
-    radial-gradient(circle at 20% 30%, rgba(46, 74, 52, 0.75) 0%, rgba(46, 74, 52, 0) 50%),
-    radial-gradient(circle at 80% 70%, rgba(31, 51, 35, 0.9) 0%, rgba(31, 51, 35, 0) 50%),
-    radial-gradient(circle at 50% 20%, rgba(66, 92, 60, 0.45) 0%, rgba(66, 92, 60, 0) 40%),
-    radial-gradient(circle at 10% 85%, rgba(20, 32, 23, 0.95) 0%, rgba(20, 32, 23, 0) 50%),
-    radial-gradient(circle at 70% 30%, rgba(40, 60, 42, 0.65) 0%, rgba(40, 60, 42, 0) 45%);
+  background-color: #13170e;
+  background-image: url('./assets/army-camo-pattern.svg');
+  background-repeat: repeat;
+  background-size: 600px 300px;
 }
 
 .bg-camo-stripe {
-  background-image: url('/army-digital-camo.svg');
+  background-image: url('./assets/army-camo-pattern.svg');
   background-repeat: repeat-x;
-  background-size: 120px 120px;
+  background-size: 400px 200px;
   background-position: center;
 }

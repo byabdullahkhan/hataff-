@@ -29,8 +29,8 @@ export const SectorsSection: React.FC<SectorsSectionProps> = ({ onRequestSectorQ
           {/* Left Column: Headline and Description */}
           <div className="lg:col-span-5 lg:sticky lg:top-28">
             <div className="inline-flex items-center gap-2 mb-3">
-              <span className="w-5 h-[2.5px] bg-[#c2ab8a]" />
-              <span className="text-xs sm:text-sm font-bold tracking-widest text-[#253d26] uppercase">
+              <span className="w-5 h-[2.5px] bg-[#867e3c]" />
+              <span className="text-xs sm:text-sm font-bold tracking-widest text-[#242b1b] uppercase">
                 SECTORS WE SERVE
               </span>
             </div>
@@ -38,16 +38,16 @@ export const SectorsSection: React.FC<SectorsSectionProps> = ({ onRequestSectorQ
             <h2 className="font-condensed font-black text-3xl sm:text-5xl lg:text-6xl text-neutral-900 tracking-tight leading-tight uppercase mb-6">
               Different environments.
               <br />
-              <span className="text-[#324f33]">One commitment.</span>
+              <span className="text-[#3e4526]">One commitment.</span>
             </h2>
 
             <p className="text-neutral-600 text-sm sm:text-base leading-relaxed mb-8">
               Every property has its own risks. Our people and systems work together to meet the needs of your environment.
             </p>
 
-            <div className="hidden lg:block p-5 bg-[#FAF7F1] border border-[#c2ab8a]/60 rounded-2xl relative overflow-hidden">
+            <div className="hidden lg:block p-5 bg-[#FAF7F1] border border-[#767035]/40 rounded-2xl relative overflow-hidden">
               <div className="absolute top-0 left-0 right-0 h-1 bg-camo-stripe" />
-              <div className="text-xs font-bold tracking-wider text-[#223621] uppercase mb-2">
+              <div className="text-xs font-bold tracking-wider text-[#1e2417] uppercase mb-2">
                 Tailored Tactical Security Deployments
               </div>
               <p className="text-xs text-neutral-600 leading-relaxed">
@@ -66,16 +66,16 @@ export const SectorsSection: React.FC<SectorsSectionProps> = ({ onRequestSectorQ
                   onClick={() => setSelectedSector(sector.id)}
                   className={`bg-[#FAF7F1] border transition-all duration-300 rounded-2xl p-6 sm:p-7 cursor-pointer ${
                     isSelected
-                      ? 'border-[#334c32] shadow-md ring-2 ring-[#334c32]/25 bg-white'
-                      : 'border-[#c2ab8a]/40 hover:border-[#c2ab8a] hover:bg-[#f5efe5]'
+                      ? 'border-[#3e4526] shadow-md ring-2 ring-[#3e4526]/25 bg-white'
+                      : 'border-[#767035]/30 hover:border-[#767035] hover:bg-[#f5efe5]'
                   }`}
                 >
                   <div className="flex items-start gap-5">
                     <div
                       className={`w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0 transition-colors ${
                         isSelected
-                          ? 'bg-[#213520] text-[#c2ab8a]'
-                          : 'bg-[#ECE4D6] text-[#213520]'
+                          ? 'bg-[#182013] text-[#867e3c]'
+                          : 'bg-[#ECE4D6] text-[#182013]'
                       }`}
                     >
                       {getSectorIcon(sector.icon)}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <style>
+      .c-base { fill: #172214; }
+      .c-dark-olive { fill: #253620; }
+      .c-field-green { fill: #374c31; }
+      .c-charcoal { fill: #0d140a; }
+      .c-brass-drab { fill: #686234; }
+    </style>
+  </defs>
+  <!-- Base 1: Deep Tactical Army Olive Field -->
+  <rect width="800" height="400" class="c-base" />
+
+  <!-- Layer 2: Field Olive Drab Flowing Shapes -->
+  <path class="c-dark-olive" d="M-40,80 C30,20 120,50 180,130 C230,200 280,170 350,100 C420,30 510,60 570,150 C620,220 680,240 750,170 C810,110 870,140 910,210 L910,-50 L-40,-50 Z" />
+  <path class="c-dark-olive" d="M-50,300 C40,240 140,320 220,270 C310,220 400,300 480,250 C570,200 670,280 770,230 C840,190 890,250 940,330 L940,450 L-50,450 Z" />
+  <path class="c-dark-olive" d="M210,150 C310,100 400,190 370,280 C340,360 240,370 170,300 C100,240 130,170 210,150 Z" />
+  <path class="c-dark-olive" d="M590,130 C690,80 780,170 750,260 C720,340 620,350 550,280 C480,220 510,150 590,130 Z" />
+
+  <!-- Layer 3: Classic Military Foliage Green Organic Lobes -->
+  <path class="c-field-green" d="M-20,30 C50,20 100,90 80,160 C60,230 -10,250 -40,210 C-80,160 -70,50 -20,30 Z" />
+  <path class="c-field-green" d="M280,30 C370,0 470,40 460,140 C450,210 380,230 320,200 C240,170 220,70 280,30 Z" />
+  <path class="c-field-green" d="M630,90 C730,40 840,80 820,190 C800,270 710,310 650,260 C570,200 570,120 630,90 Z" />
+  <path class="c-field-green" d="M110,240 C210,210 270,300 240,380 C210,440 100,430 60,380 C20,320 50,260 110,240 Z" />
+  <path class="c-field-green" d="M460,200 C550,160 630,220 610,320 C590,390 510,420 440,380 C370,330 390,240 460,200 Z" />
+
+  <!-- Layer 4: Tactical Night Charcoal Blobs (Deep camouflage shadows) -->
+  <path class="c-charcoal" d="M-10,120 C30,90 80,110 70,160 C60,200 10,210 -20,190 C-50,170 -40,135 -10,120 Z" />
+  <path class="c-charcoal" d="M240,80 C290,60 340,90 330,140 C320,180 270,200 230,170 C190,140 200,95 240,80 Z" />
+  <path class="c-charcoal" d="M540,90 C590,60 650,100 630,160 C610,210 550,210 520,170 C490,130 500,105 540,90 Z" />
+  <path class="c-charcoal" d="M110,150 C160,130 210,170 190,220 C170,260 110,260 90,220 C70,180 80,160 110,150 Z" />
+  <path class="c-charcoal" d="M420,120 C470,90 520,130 500,180 C480,220 420,230 390,190 C360,150 380,130 420,120 Z" />
+  <path class="c-charcoal" d="M710,160 C760,130 820,160 810,220 C800,270 740,280 700,240 C670,200 680,175 710,160 Z" />
+  <path class="c-charcoal" d="M90,310 C140,280 190,320 170,370 C150,410 100,420 70,380 C50,340 60,320 90,310 Z" />
+  <path class="c-charcoal" d="M330,280 C380,250 440,280 430,340 C420,390 360,400 320,360 C290,320 300,295 330,280 Z" />
+  <path class="c-charcoal" d="M590,290 C650,260 700,300 690,360 C680,410 620,420 580,380 C550,340 560,305 590,290 Z" />
+
+  <!-- Layer 5: Muted Military Brass / Coyote Gold Tactical Accents -->
+  <path class="c-brass-drab" d="M500,0 C560,0 620,40 610,110 C600,170 530,200 470,180 C420,160 420,70 460,20 Z" />
+  <path class="c-brass-drab" d="M710,230 C790,200 850,250 830,330 C800,390 730,390 690,350 C650,310 660,250 710,230 Z" />
+  <path class="c-brass-drab" d="M140,30 C210,5 260,60 250,120 C240,180 170,190 130,160 C80,130 90,60 140,30 Z" />
+  <path class="c-brass-drab" d="M-20,330 C40,300 90,340 80,400 C60,440 -10,440 -40,400 Z" />
+  <path class="c-brass-drab" d="M350,240 C410,220 460,260 450,310 C440,360 380,370 340,340 C310,310 320,260 350,240 Z" />
+</svg>

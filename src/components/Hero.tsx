@@ -17,13 +17,13 @@ export const Hero: React.FC<HeroProps> = ({
 
   return (
     <section id="home" className="relative pt-24 sm:pt-28 pb-8 sm:pb-12 px-3 sm:px-6">
-      <div className="max-w-7xl mx-auto rounded-3xl overflow-hidden shadow-2xl relative border border-[#2b3d2b]/60">
-        {/* Tactical Digital Camouflage Accent Top Strip */}
-        <div className="h-3 w-full bg-camo-stripe border-b border-[#3e563d]" />
+      <div className="max-w-7xl mx-auto rounded-3xl overflow-hidden shadow-2xl relative border-2 border-[#3c4225]">
+        {/* Tactical Camouflage Top Banner Strip */}
+        <div className="h-4 w-full bg-camo-stripe border-b border-[#525732]" />
 
         {/* Hero Main Container */}
         <div className="relative min-h-[580px] sm:min-h-[640px] lg:min-h-[700px] flex items-center">
-          {/* Background Image */}
+          {/* Background Image with Tactical Camo Blend */}
           <div className="absolute inset-0 z-0">
             <img
               src={displayImage}
@@ -32,16 +32,16 @@ export const Hero: React.FC<HeroProps> = ({
               className="w-full h-full object-cover object-center lg:object-[center_35%]"
             />
             {/* Tactical Dark Camo & Shadow Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-[#0d160e]/95 via-[#0d160e]/85 to-[#0d160e]/40 lg:to-transparent" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0d160e]/90 via-transparent to-[#0d160e]/30" />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#0f140a]/95 via-[#0f140a]/85 to-[#0f140a]/40 lg:to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0f140a]/90 via-transparent to-[#0f140a]/30" />
           </div>
 
           {/* Foreground Hero Content */}
           <div className="relative z-10 w-full px-6 sm:px-10 lg:px-14 py-12 lg:py-20 max-w-3xl">
             {/* Tagline */}
             <div className="inline-flex items-center gap-2 mb-4 sm:mb-6">
-              <span className="w-6 h-[2.5px] bg-[#c2ab8a]" />
-              <span className="text-xs sm:text-sm font-bold tracking-widest text-[#d5c6b0] uppercase">
+              <span className="w-6 h-[2.5px] bg-[#867e3c]" />
+              <span className="text-xs sm:text-sm font-bold tracking-widest text-[#dcd4ae] uppercase">
                 VIGILANT BY DUTY · TRUSTED BY CHOICE
               </span>
             </div>
@@ -52,7 +52,7 @@ export const Hero: React.FC<HeroProps> = ({
               <br />
               Your Safety.
               <br />
-              <span className="text-[#c2ab8a]">Our Commitment.</span>
+              <span className="text-[#867e3c]">Our Commitment.</span>
             </h1>
 
             {/* Subtitle description */}
@@ -64,7 +64,7 @@ export const Hero: React.FC<HeroProps> = ({
             <div className="flex flex-wrap items-center gap-3 sm:gap-4 mb-10">
               <button
                 onClick={onExploreServices}
-                className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#c2ab8a] hover:bg-[#d4bfa1] text-neutral-950 font-bold rounded-xl shadow-lg transition-all duration-200 group cursor-pointer text-sm sm:text-base"
+                className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#867e3c] hover:bg-[#978f44] text-[#0f140a] font-black rounded-xl shadow-lg transition-all duration-200 group cursor-pointer text-sm sm:text-base tracking-wide uppercase"
               >
                 <span>Explore Our Services</span>
                 <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
@@ -72,7 +72,7 @@ export const Hero: React.FC<HeroProps> = ({
 
               <button
                 onClick={onTalkSecurity}
-                className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#1b2b1d]/70 hover:bg-[#223725]/90 text-white font-semibold rounded-xl border border-[#3e563d] backdrop-blur-sm transition-all duration-200 group cursor-pointer text-sm sm:text-base"
+                className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#171d10]/80 hover:bg-[#222a18]/95 text-white font-semibold rounded-xl border border-[#4a502c] backdrop-blur-sm transition-all duration-200 group cursor-pointer text-sm sm:text-base"
               >
                 <span>Let's Talk Security</span>
                 <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
@@ -80,15 +80,15 @@ export const Hero: React.FC<HeroProps> = ({
             </div>
 
             {/* Badges / Social Proof */}
-            <div className="flex flex-wrap items-center gap-4 sm:gap-6 pt-2 border-t border-[#344b33]/40 text-xs sm:text-sm text-neutral-300">
+            <div className="flex flex-wrap items-center gap-4 sm:gap-6 pt-2 border-t border-[#3e4526]/60 text-xs sm:text-sm text-neutral-300">
               <div className="flex items-center gap-2">
-                <span className="w-4 h-4 rounded-full bg-[#2a452a] border border-[#4e6f4e] flex items-center justify-center text-[#c2ab8a]">
+                <span className="w-4 h-4 rounded-full bg-[#272e1c] border border-[#535c36] flex items-center justify-center text-[#867e3c]">
                   <Check className="w-2.5 h-2.5 stroke-[3]" />
                 </span>
                 <span>Protecting what matters since 1995</span>
               </div>
               <div className="flex items-center gap-1.5">
-                <MapPin className="w-4 h-4 text-[#c2ab8a]" />
+                <MapPin className="w-4 h-4 text-[#867e3c]" />
                 <span>Lahore, Pakistan</span>
               </div>
             </div>
@@ -96,10 +96,10 @@ export const Hero: React.FC<HeroProps> = ({
 
           {/* Bottom Right Floating Badge with Camouflage border */}
           <div className="hidden md:block absolute bottom-8 right-8 z-10">
-            <div className="bg-[#122014]/95 border-2 border-[#395237] backdrop-blur-md rounded-2xl p-5 shadow-2xl text-white max-w-[240px]">
+            <div className="bg-[#12170d]/95 border-2 border-[#484f29] backdrop-blur-md rounded-2xl p-5 shadow-2xl text-white max-w-[240px]">
               <div className="flex items-center gap-2 mb-1.5">
-                <span className="w-2.5 h-2.5 rounded-full bg-[#c2ab8a] animate-pulse" />
-                <span className="text-xs uppercase tracking-wider text-[#d5c6b0] font-semibold">
+                <span className="w-2.5 h-2.5 rounded-full bg-[#867e3c] animate-pulse" />
+                <span className="text-xs uppercase tracking-wider text-[#dcd4ae] font-semibold">
                   Always vigilant.
                 </span>
               </div>

@@ -19,9 +19,9 @@ export const ServiceModal: React.FC<ServiceModalProps> = ({
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm animate-in fade-in duration-200">
       <div className="relative w-full max-w-2xl bg-[#FBF9F5] rounded-3xl border border-neutral-300 shadow-2xl overflow-hidden max-h-[90vh] flex flex-col">
         {/* Header bar */}
-        <div className="bg-[#142318] bg-camo-pattern p-6 text-white border-b border-[#2d4933] flex items-center justify-between">
+        <div className="bg-[#11150c] bg-camo-pattern p-6 text-white border-b border-[#4a502c] flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <span className="font-condensed font-black text-2xl text-[#8ec89a]">
+            <span className="font-condensed font-black text-2xl text-[#867e3c]">
               {service.number}
             </span>
             <div className="w-[1px] h-6 bg-white/20" />
